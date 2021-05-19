@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "362531512632",
+    "project_id": "flutter-sample-c887e",
+    "storage_bucket": "flutter-sample-c887e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362531512632:android:657e1fd23512713d5ba1cd",
+        "android_client_info": {
+          "package_name": "com.example.baticpro.sample_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362531512632-8jbjfgaa5vguqgkg2j9ganptdlg9fvf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs7DabDTgILAzVN32SnJu3Hw_TDzf52t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362531512632-8jbjfgaa5vguqgkg2j9ganptdlg9fvf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
