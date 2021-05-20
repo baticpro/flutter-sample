@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sample_flutter_app/AllScreens/loginScreen.dart';
 import 'package:sample_flutter_app/AllScreens/mainscreen.dart';
+import 'package:sample_flutter_app/AllScreens/registrationScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,9 +23,10 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.cyan,
+        fontFamily: "Bolt-Regular",
       ),
-      home: MainScreen(),
+      home: RegistrationScreen(),
     );
   }
 }
