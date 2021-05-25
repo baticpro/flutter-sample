@@ -1,11 +1,22 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:sample_flutter_app/AllScreens/loginScreen.dart';
 import 'package:sample_flutter_app/AllScreens/mainscreen.dart';
 import 'package:sample_flutter_app/AllScreens/registrationScreen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
+
+void displayToast(String message) {
+  Fluttertoast.showToast(msg: message);
+}
+
+var usersRef = FirebaseDatabase.instance.reference().child("users");
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
